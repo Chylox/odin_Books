@@ -1,3 +1,24 @@
+let myLibrary = [
+    {
+        title: "Python for Everybody",
+        author: "Bodi",
+        pages: 2300,
+        readingStatus: "not read"
+    },
+    {
+        title: "The Endurance Diet",
+        author: "Matt Fitzgerald",
+        pages: 320,
+        readingStatus: "read"
+    },
+    {
+        title: "The Hobbit",
+        author: "J.R.R. Tolkien",
+        pages: 295,
+        readingStatus: "read"
+    }
+];
+
 function Book(title, author, pages, read) {
     this.title = title;
     this.author = author;
@@ -15,10 +36,17 @@ function Book(title, author, pages, read) {
     }
 }
 
-const book1 = new Book("Python", "Bodi", 2313, "gunselberger");
-const book2 = new Book("The Endurance Diet", "Matt Fitzgerald", 320, "not read");
-const book3 = new Book("The Hobbit", "J.R.R. Tolkien", 295, "read");
 
-console.log(book1.info());
-console.log(book2.info());
-console.log(book3.info());
+
+function addBookToLibrary() {
+    // Add book Input to Array on top
+}
+
+
+
+
+
+
+// const book1 = new Book("Python", "Bodi", 2313, "gunselberger");
+// const book2 = new Book("The Endurance Diet", "Matt Fitzgerald", 320, "not read");
+// const book3 = new Book("The Hobbit", "J.R.R. Tolkien", 295, "read");
